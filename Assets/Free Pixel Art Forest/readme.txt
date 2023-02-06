@@ -1,28 +1,29 @@
+ Artwork created by Eder Muniz
+
+Free Pixel Art Forest
+
+PNG, PSD Formats
+
+Thank you for buy my Fre Pixel Art Forest!
+Feel free to send me messages or leave a comment if you have questions or need more info.
 
 
- Thank you for buy my Free Pixel Art Hill!
+ Contents
 
- Feel free to send me messages or leave a comment if you have questions or need more info.
+PNG Folder
+Contains all the layers ready to use in PNG Format
 
+PREVIEWS
+Flattened HD Res example PNG and gif files
 
- *Info
+PSD
+Working Photoshop format files for editing.
 
-   Artwork created by Eder Muniz
-
-   Pixel Art Infinite Runner Pack
-
-   PNG, PSD Formats
-
-
-
- *Contents
-
-   PNG Folder
-   Contains all the layers ready to use in PNG Format
-
-   PREVIEWS
-   Flattened HD Res example PNG.
-   PSD
-   Working Photoshop format files for editing.
+You may also like
+Another assets available in store
 
 
+
+Changelog:
+
+...

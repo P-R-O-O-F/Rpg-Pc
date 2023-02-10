@@ -6,7 +6,6 @@ namespace DefaultNamespace {
     public class Reset : MonoBehaviour {
         [SerializeField] private Transform player;
         [SerializeField] private Transform StartElement;
-		[SerializeField] private Transform CheckpointElement;
         private void OnTriggerEnter2D(Collider2D other) {
             if (other.gameObject.CompareTag("Player")) {
                 SetPos();
@@ -19,7 +18,6 @@ namespace DefaultNamespace {
 
         private void SetPos()
         {
-				
             Vector3 positionEl = StartElement.position;
             player.position = new Vector3(positionEl.x, positionEl.y, player.position.z);
 }

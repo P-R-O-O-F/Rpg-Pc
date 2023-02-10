@@ -40,7 +40,7 @@ namespace DefaultNamespace
                 SetPos();
             }
         }
-        public bool isTriggered()
+        public bool GetTriggered()
         {
             return triggered;
         }

@@ -20,6 +20,8 @@ using Students;
             if (Mathf.Approximately(_body2D.velocity.y, 0))
             {
                 _animator.SetBool("Grounded", true);
+                _animator.SetBool("Jumping", false);
+                _animator.SetBool("Fall", false);
                 Player.Instance.State.IsGrounded = true;
                 Player.Instance.State.IsJumping = false;
             }
@@ -27,10 +29,15 @@ using Students;
             {
                 _animator.SetBool("Fall", true);
             }
+            if (_body2D.velocity.y>0)
+            {
+                _animator.SetBool("Jumping", true);
+            }
             if(gameObject.CompareTag("WalkableSurfaceTag"))
             {
                 Debug.Log(!gameObject.CompareTag("WalkableSurfaceTag"));
                 _animator.SetBool("Stagger", false);
+                _animator.SetBool("Grounded", false);
             }
         }
 
